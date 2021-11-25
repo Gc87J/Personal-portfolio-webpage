@@ -1,24 +1,120 @@
-body{
-    background-color: #000000;
+@media screen  {
+    body{
+        background-color: #000000;
+    }
 }
+   
 #navbar{
-    background-color: #550c0c98;
+    display: flex;
+    flex-direction: row;
+    background-color: #550c0ce5; 
+    position: fixed;
+    margin:0;
+    top: 0;
+    height: 29vh;
+
+}
+header{
     color: #fff;
+    margin-top: 28px;
+    margin-left: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.nav-links1{
+    margin-left: 50%;
+    margin-top: 28px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.nav-links2{
+    margin-left: 5%;
+    margin-top: 28px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-links3{
+    margin-left: 5%;
+    margin-top: 28px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-links4{
+    margin-left: 3%;
+    margin-top: 28px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 #welcome-section{
+display: flex;
+flex-direction: column;
+align-items: center;
 background-color:#000000;
+color: #fff;
+line-height: 1px;
+height: 20vh;
+
+padding-top: 0px;
+  margin-top: 0px;
+  display: block;
+  height: 100vh;
+
+}
+.welcome3{
+    color: rgb(255, 0, 0);
+}
+
+
+
+#projects{
+background-color:#550c0ce5;
 color: #fff;
 }
 
-#projects{
-background-color:#550c0c98 ;
-color: #fff;
+.project-tile{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    font-size: x-large;
+}
+
+.project1{
+    color: #fff;
+
+}
+
+.project2{
+    color: #fff;
+    
+
+}
+
+.project3{
+    color: #fff;
+
+
+}
+.project4{
+    color: #fff;
+
+}
+
+.project-name{
+    color: #fff;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
 }
 
 a{
     color: #fff;
+    text-decoration: none;
 }
+
+
 
 #profile-link{
 background-color:#000000 ;
@@ -26,7 +122,10 @@ color: #fff;
 
 }
 
+
+
 footer{
-background-color:#550c0c98 ;
+background-color:#550c0ce5;
 color: #fff;
+
 }
